@@ -8,3 +8,7 @@ export async function POST(req: NextRequest) {
 
   return NextResponse.json({ message: "Hello Arwin" });
 }
+
+export async function GET() {
+  return NextResponse.json({ message: "Hello ARwin" });
+}
